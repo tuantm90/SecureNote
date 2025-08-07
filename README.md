@@ -1,17 +1,37 @@
 # SecureNote
 
-**SecureNote** là ứng dụng mã nguồn mở giúp bạn tạo, lưu trữ và quản lý ghi chú cá nhân một cách an toàn với mã hóa đầu-cuối.
+![SecureNote Demo Screenshot](assets/demo.png)
 
-## Tính năng chính
-- Tạo, chỉnh sửa, xóa ghi chú cá nhân.
-- Đồng bộ hóa ghi chú trên nhiều thiết bị.
-- Hỗ trợ đính kèm file (hình ảnh, PDF, v.v.).
-- Mã hóa đầu-cuối (AES-256) bảo vệ dữ liệu người dùng.
-- Chia sẻ ghi chú bảo mật qua liên kết riêng tư.
-- Xác thực hai yếu tố (2FA).
+**SecureNote** là ứng dụng quản lý ghi chú bảo mật mã nguồn mở, giao diện web thân thiện, lưu trữ ghi chú đã mã hóa đầu-cuối.  
+> **Mục tiêu:** Dành cho cộng đồng, phi lợi nhuận, minh bạch và đơn giản.
 
-## Lý do phát triển
-Dự án này hướng đến việc cung cấp một công cụ quản lý ghi chú bảo mật miễn phí, minh bạch, phục vụ cộng đồng và không vì mục đích thương mại.
+---
 
-## Giấy phép
-MIT License
+## 🚀 **Tính năng**
+
+- Thêm, xóa, giải mã ghi chú.
+- Mã hóa AES-256 phía server.
+- Giao diện web đơn giản, dễ sử dụng.
+- REST API cho backend, React cho frontend.
+- Cài đặt và sử dụng nhanh chóng.
+
+---
+
+## 🖼️ **Giao diện minh họa**
+
+![Giao diện SecureNote](assets/demo.png)
+
+---
+
+## 🛠️ **Cách cài đặt & chạy thử**
+
+### 1. **Yêu cầu**
+- Node.js >= 14
+- npm
+
+### 2. **Chạy Backend**
+
+```bash
+cd backend
+npm install
+node index.js
